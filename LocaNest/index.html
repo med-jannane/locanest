@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LocaNest - Location d'appartements au Maroc</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">LocaNest</a>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="appartement.html">Appartements</a></li>
+          <li><a href="villes.html">Villes</a></li>
+          <li><a href="tarifs.html">Tarifs</a></li>
+          <li><a href="a-propos.html">À propos</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="avis.html">Avis</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="inscription.html">Inscription</a></li>
+          <li><a href="connexion.html">Connexion</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- SECTION HERO -->
+    <section class="section-hero">
+      <div class="container">
+        <h1 class="fade-in">Votre séjour sur mesure, partout au Maroc</h1>
+        <p class="fade-in">Trouvez l'appartement idéal à Casablanca, Marrakech, Rabat, Tanger, Agadir et bien plus encore avec LocaNest</p>
+        <div class="fade-in" style="margin-top: 2rem;">
+          <a href="appartement.html" class="btn">Découvrir nos appartements</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Nos appartements vedettes</h2>
+        <div class="slider" id="main-slider">
+          <div class="slide active">
+            <img src="img/image copy 3.png" alt="Appartement moderne à Casablanca">
+            <div class="slide-caption">
+              <h3>Appartement moderne à Casablanca</h3>
+              <p>Vue sur Gauthier, WiFi, clim, 600 MAD/nuit</p>
+              <a href="appartement.html" class="btn btn-secondary">Voir détails</a>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/image copy 4.png" alt="Riad traditionnel à Marrakech">
+            <div class="slide-caption">
+              <h3>Riad traditionnel à Marrakech</h3>
+              <p>Charme authentique, patio, 900 MAD/nuit</p>
+              <a href="appartement.html" class="btn btn-secondary">Voir détails</a>
+            </div>
+          </div>
+          <div class="slide">
+            <img src="img/image copy 5.png" alt="Studio cosy à Rabat Agdal">
+            <div class="slide-caption">
+              <h3>Studio cosy à Rabat Agdal</h3>
+              <p>Idéal pour étudiants ou pros, 450 MAD/nuit</p>
+              <a href="appartement.html" class="btn btn-secondary">Voir détails</a>
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Précédent">&#10094;</button>
+          <button class="slider-btn next" aria-label="Suivant">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- AVIS CLIENTS -->
+    <section class="section" style="background: rgba(46,196,182,0.05);">
+      <div class="container">
+        <h2 class="section-title">Ce que disent nos clients</h2>
+        <div class="slider" id="avis-slider">
+          <div class="slide">
+            <div class="card text-center">
+              <blockquote style="font-size: 1.2rem; font-style: italic; margin-bottom: 1rem;">
+                Sarah : Super séjour, appartement très propre ! ★★★★★
+              </blockquote>
+              <div class="badge">Sarah, Casablanca</div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="card text-center">
+              <blockquote style="font-size: 1.2rem; font-style: italic; margin-bottom: 1rem;">
+                Lucas : Accueil chaleureux, je recommande. ★★★★★
+              </blockquote>
+              <div class="badge">Lucas, Rabat</div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="card text-center">
+              <blockquote style="font-size: 1.2rem; font-style: italic; margin-bottom: 1rem;">
+                Emma : Très bon rapport qualité/prix. ★★★★
+              </blockquote>
+              <div class="badge">Emma, Tanger</div>
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Précédent">&#10094;</button>
+          <button class="slider-btn next" aria-label="Suivant">&#10095;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VILLES POPULAIRES -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Villes populaires</h2>
+        <div class="grid grid-3">
+          <div class="card text-center">
+            <h3>Casablanca</h3>
+            <p>La capitale économique du Maroc</p>
+            <a href="villes.html" class="btn">Explorer</a>
+          </div>
+          <div class="card text-center">
+            <h3>Marrakech</h3>
+            <p>La ville rouge et ses riads traditionnels</p>
+            <a href="villes.html" class="btn">Explorer</a>
+          </div>
+          <div class="card text-center">
+            <h3>Rabat</h3>
+            <p>La capitale administrative</p>
+            <a href="villes.html" class="btn">Explorer</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>LocaNest</h3>
+          <p>Votre partenaire de confiance pour la location d'appartements au Maroc.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>📧 contact@locanest.ma</p>
+          <p>📞 06 61 00 61 00</p>
+          <p>📍 Casablanca, Maroc</p>
+        </div>
+        <div class="footer-section">
+          <h3>Liens utiles</h3>
+          <a href="a-propos.html">À propos</a>
+          <a href="tarifs.html">Tarifs</a>
+          <a href="cgv.html">CGV</a>
+          <a href="privacy.html">Confidentialité</a>
+        </div>
+        <div class="footer-section">
+          <h3>Suivez-nous</h3>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Twitter">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 LocaNest. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/slider.js"></script>
+</body>
+</html> 
